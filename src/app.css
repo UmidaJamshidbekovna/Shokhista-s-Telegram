@@ -1,0 +1,52 @@
+.sider-parent{
+    background-color: darkgray;
+    border: 3px solid white;
+    height: 950px;
+    border-radius: 3px;
+}
+.sider-parent button{
+    font-size: 20px;
+}
+.sider-parent ul li{
+    font-size: 19px;
+}
+.sider-parent .lis:hover{
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+.sider-parent .lises{
+    background-color: lightseagreen;
+    color: white;
+    cursor: pointer;
+}
+.content-parent{
+    background-color: darkgray;
+    border: 3px solid white;
+    border-radius: 3px;
+}
+.content{
+    background-color: gray;
+    height: 90px;
+    border: 3px solid black;
+    padding: 1rem;
+    color: white;
+}
+.content  .messagePoint{
+    background-color: white;
+    height: 720px;
+    color: black;
+    padding: 0.5rem;
+    overflow: scroll;
+}
+.content .messages{
+    padding: 0.5rem 0.5rem 0.1rem 0.5rem;
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    margin: 5px;
+}
+.content .messages span{
+    text-align: end;
+    float: right;
+}
